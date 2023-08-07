@@ -10,6 +10,9 @@ int main(){
 	cout << "*p + 2 = " << *p + 2 << endl;
 	cout << "p + 2 = " << p + 2 << endl;
 	cout << "the value of x is " << x << endl;
+	
+	x = *p + 2;
+	cout << *p;
 
 
 	/* Ponteiro * é usado para apontar algum valor para uma variavel
@@ -17,5 +20,5 @@ int main(){
 	 * nao armazenam valores, apenas endereços
 	 * portanto um *p deve ser descrito como 'apontado para' e 
 	 * & como endereço de ...
-
+	*/
 }
