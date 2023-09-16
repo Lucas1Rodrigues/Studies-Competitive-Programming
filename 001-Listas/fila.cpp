@@ -14,7 +14,9 @@ int main(){
 	cin >> n2;
 	for(i=0;i<n2;i++){
 		cin >> id;
+		if(id == fila[i]){
 		fila.pop_back();
+		}
 	}
 	for(int i : fila){
 		cout << i << " ";
